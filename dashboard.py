@@ -231,13 +231,9 @@ def update_dashboard(selected_region, selected_period):
             avg_duration
         )
     
-    df_players["snapshot_date"] = pd.to_datetime(
-    df_players["snapshot_date"]
-    )
+    df_players["snapshot_date"] = pd.to_datetime(df_players["snapshot_date"])
 
-    df_champions["snapshot_date"] = pd.to_datetime(
-    df_champions["snapshot_date"]
-    )
+    df_champions["snapshot_date"] = pd.to_datetime(df_champions["snapshot_date"])
 
     # Фильтрация периода
 
@@ -299,24 +295,16 @@ def update_dashboard(selected_region, selected_period):
     if selected_region != "both":
 
         if "region" in df_lp.columns:
-            df_lp = df_lp[
-                df_lp["region"] == selected_region
-            ]
+            df_lp = df_lp[df_lp["region"] == selected_region]
 
         if "region" in df_matches.columns:
-            df_matches = df_matches[
-                df_matches["region"] == selected_region
-            ]
+            df_matches = df_matches[df_matches["region"] == selected_region]
 
         if "region" in df_champions.columns:
-            df_champions = df_champions[
-                df_champions["region"] == selected_region
-            ]
+            df_champions = df_champions[df_champions["region"] == selected_region]
 
         if "region" in df_players.columns:
-            df_players = df_players[
-                df_players["region"] == selected_region
-            ]
+            df_players = df_players[df_players["region"] == selected_region]
 
     # KPI карточки
     total_players = str(len(df_players))
