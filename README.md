@@ -52,8 +52,6 @@ League of Legends Analytics Platform — аналитическая платфо
 
 ## 📁 Структура проекта
 
-```text
-
 📦 LeagueOfLegendsAnalytics
 │
 ├── 📄 [`/riot_pipeline.py`](./riot_pipeline.py/)
@@ -72,7 +70,6 @@ League of Legends Analytics Platform — аналитическая платфо
 ├── 📄 .env
 │
 └── 📄 README.md
-```
 
 ---
 
