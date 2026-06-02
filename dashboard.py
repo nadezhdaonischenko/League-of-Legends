@@ -116,22 +116,10 @@ app.layout = dbc.Container([
                     dcc.Dropdown(
                         id='period-dropdown',
                         options=[
-                            {
-                                'label': 'Последний снимок',
-                                'value': 'latest'
-                            },
-                            {
-                                'label': 'Текущий месяц',
-                                'value': 'current_month'
-                            },
-                            {
-                                'label': 'Последние 30 дней',
-                                'value': 'last_30_days'
-                            },
-                            {
-                                'label': 'Все время',
-                                'value': 'all'
-                            }
+                            {'label': 'Последний снимок', 'value': 'latest'},
+                            {'label': 'Текущий месяц', 'value': 'current_month'},
+                            {'label': 'Последние 30 дней', 'value': 'last_30_days'},
+                            {'label': 'Все время', 'value': 'all'}
                         ],
                         value='latest',
                         clearable=False,
