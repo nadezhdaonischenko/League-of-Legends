@@ -1,3 +1,7 @@
+# ====================================================
+# АНАЛИЗ ОПРЕДЕЛЕННОГО ИГРОКА
+# ====================================================
+
 import pandas as pd
 
 from riot_pipeline import (
@@ -107,7 +111,7 @@ def analyze_star_player(
 
     df_star = pd.DataFrame([star_row])
 
-    print("\n--- АНАЛИЗ АКТИВНОСТИ ЗВЕЗДНОГО ИГРОКА ПО КЛАСТЕРАМ RIOT ---")
+    print("\n--- АНАЛИЗ АКТИВНОСТИ ИГРОКА ПО КЛАСТЕРАМ RIOT ---")
     print(
         f"Игрок: {star_name}#{star_tag} | "
         f"Домашний регион: {star_home_platform.upper()} "
@@ -128,7 +132,7 @@ def analyze_star_player(
 
 if __name__ == "__main__":
 
-    df = analyze_star_player(star_name="Hide on bush", star_tag="KR", star_home_platform="kr")
+    df = analyze_star_player(star_name="Hide on bush", star_tag="KR", star_home_platform="kr") # Пример
 
 # Сохранение результатов в CSV (опционально)
 #    if not df.empty:
