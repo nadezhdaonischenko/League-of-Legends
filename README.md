@@ -184,7 +184,7 @@ League of Legends Analytics Platform — аналитическая платфо
 
 ---
 
-# 📈 [`/screenshot_dashboard`](./screenshot_dashboard/)
+# 📈 [Dashboard](./screenshot_dashboard.jpg/)
 
 Интерактивный веб-дашборд разработан с использованием Dash и Plotly.
 
