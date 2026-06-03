@@ -54,17 +54,17 @@ League of Legends Analytics Platform — аналитическая платфо
 
 📦 LeagueOfLegendsAnalytics<br>
 │<br>
-├── 📄 [`/riot_pipeline.py`](./riot_pipeline.py/)<br>
-├── 📄 [`/EDA.py`](./EDA.py/)<br>
-├── 📄 [`/dashboard_etl.py`](./dashboard_etl.py/)<br>
-├── 📄 [`/dashboard.py`](./dashboard.py/)<br>
-├── 📄 [`/star_player_search.py`](./star_player_search.py/)<br>
+├── 📄 [riot_pipeline.py](./riot_pipeline.py/)<br>
+├── 📄 [EDA.py](./EDA.py/)<br>
+├── 📄 [dashboard_etl.py](./dashboard_etl.py/)<br>
+├── 📄 [dashboard.py](./dashboard.py/)<br>
+├── 📄 [star_player_search.py](./star_player_search.py/)<br>
 │<br>
-├── 📄 [`/run_daily_pipeline.bat`](./run_daily_pipeline.bat/)<br>
-├── 📄 [`/lol_daily_pipeline.py`](./lol_daily_pipeline.py/)<br>
+├── 📄 [run_daily_pipeline.bat](./run_daily_pipeline.bat/)<br>
+├── 📄 [lol_daily_pipeline.py](./lol_daily_pipeline.py/)<br>
 │<br>
-├── 📄 [`/script_database.sql`](./script_database.sql/)<br>
-├── 📄 [`/requirements.txt`](./requirements.txt/)<br>
+├── 📄 [script_database.sql](./script_database.sql/)<br>
+├── 📄 [requirements.txt](./requirements.txt/)<br>
 │<br>
 ├── 📄 pipeline.log<br>
 ├── 📄 .env<br>
