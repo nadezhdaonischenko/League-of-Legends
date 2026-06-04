@@ -252,7 +252,9 @@ Scatter Plot показывает:
 
 ---
 
-# ⭐ Анализ звездных игроков
+# ⭐ Анализ звездных игроков 
+
+## [star_player_search.py](./star_player_search.py/)
 
 Проект содержит отдельный модуль анализа известных игроков по Riot ID.
 
@@ -273,7 +275,7 @@ Scatter Plot показывает:
 
 # 🔄 ETL-процесс
 
-## riot_pipeline.py
+## [riot_pipeline.py](./riot_pipeline.py/)
 
 Основной ETL-модуль.
 
@@ -288,7 +290,7 @@ Scatter Plot показывает:
 
 ---
 
-## EDA.py
+## [EDA.py](./EDA.py/)
 
 Выполняет аналитическую обработку данных:
 
@@ -298,7 +300,7 @@ Scatter Plot показывает:
 
 ---
 
-## dashboard_etl.py
+## [dashboard_etl.py](./dashboard_etl.py/)
 
 Формирует специализированные витрины данных для дашборда.
 
@@ -319,7 +321,7 @@ Scatter Plot показывает:
 Ежедневный запуск выполняется через:
 
 ```text
-run_daily_pipeline.bat
+[run_daily_pipeline.bat](./run_daily_pipeline.bat/)
 ```
 
 Последовательность выполнения:
@@ -345,7 +347,7 @@ pipeline.log
 Для промышленного развертывания подготовлен DAG:
 
 ```text
-lol_daily_pipeline.py
+[lol_daily_pipeline.py](./lol_daily_pipeline.py/)
 ```
 
 Структура DAG:
