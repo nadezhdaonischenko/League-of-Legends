@@ -1,6 +1,6 @@
 @echo off
 
-cd /d "%~dp0"
+cd /d "C:\...\Project_LOL\run_daily_pipeline"    -- Точный путь к файлу 
 
 echo ============================= >> pipeline.log
 echo %date% %time% >> pipeline.log
