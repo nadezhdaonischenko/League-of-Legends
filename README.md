@@ -320,7 +320,7 @@ Scatter Plot показывает:
 
 Ежедневный запуск выполняется через:
 
-### run_daily_pipeline.bat](./run_daily_pipeline.bat/)
+### [run_daily_pipeline.bat](./run_daily_pipeline.bat/)
 
 Последовательность выполнения:
 
