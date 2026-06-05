@@ -1,6 +1,10 @@
 @echo off
 
-cd /d "C:\...\Project_LOL\run_daily_pipeline"    -- Точный путь к файлу 
+:: Установка кодировки UTF-8 для Python
+set PYTHONIOENCODING=utf-8
+
+:: Точный путь к файлу 
+cd /d "C:\...\Project_LOL\run_daily_pipeline"   
 
 echo ============================= >> pipeline.log
 echo %date% %time% >> pipeline.log
